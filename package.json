@@ -1,0 +1,20 @@
+{
+  "name": "template-vite-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format cjs,esm",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.17",
+    "tsup": "5.11.9",
+    "typescript": "4.5.4",
+    "vite": "2.7.10"
+  },
+  "author": "Sebastian Krüger (@mathe42)",
+  "license": "MIT"
+}
