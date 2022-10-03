@@ -1,20 +1,35 @@
 {
-  "name": "template-vite-plugin",
+  "name": "vite-plugin-mdi-icons",
   "version": "0.0.1",
-  "description": "",
+  "description": "Replace mdi-strings with svg-path",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "module": "dist/index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EC-Nordbund/vite-plugin-mdi-icons.git"
+  },
+  "homepage": "https://github.com/EC-Nordbund/vite-plugin-mdi-icons#readme",
+  "bugs": {
+    "url": "https://github.com/EC-Nordbund/vite-plugin-mdi-icons/issues"
+  },
   "scripts": {
-    "build": "tsup src/index.ts --dts --format cjs,esm",
+    "build": "tsc",
     "prepublishOnly": "yarn build"
   },
   "devDependencies": {
+    "@mdi/js": "7.0.96",
     "@types/node": "16.11.17",
-    "tsup": "5.11.9",
     "typescript": "4.5.4",
     "vite": "2.7.10"
   },
+  "peerDependencies": {
+    "@mdi/js": "7"
+  },
   "author": "Sebastian Krüger (@mathe42)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@rollup/pluginutils": "4.2.1",
+    "magic-string": "0.26.5"
+  }
 }
