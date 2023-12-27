@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@mdi/js@7.0.96":
-  version "7.0.96"
-  resolved "https://registry.yarnpkg.com/@mdi/js/-/js-7.0.96.tgz#8e7a54d5cb38831e3150632cc19e380f54d9edd6"
-  integrity sha512-lNqhkV3cpPfYb/Avh+vXLFukUTbHbyHoFo4Jdc7Oc9UvURGVhamFIpgOVvEf2bNA78zvjXTZeVWExUTR+DLBfQ==
+"@mdi/js@7.4.47":
+  version "7.4.47"
+  resolved "https://registry.yarnpkg.com/@mdi/js/-/js-7.4.47.tgz#7d8a4edc9631bffeed80d1ec784f9beae559a76a"
+  integrity sha512-KPnNOtm5i2pMabqZxpUz7iQf+mfrYZyKCZ8QNz85czgEt7cuHcGorWfdzUMWYA0SD+a6Hn4FmJ+YhzzzjkTZrQ==
 
 "@rollup/pluginutils@4.2.1":
   version "4.2.1"
@@ -157,7 +157,7 @@ is-core-module@^2.9.0:
   dependencies:
     has "^1.0.3"
 
-magic-string@^0.26.5:
+magic-string@0.26.5:
   version "0.26.5"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.26.5.tgz#3ceb5c60f546ba4e21e3865ab8de4d32bd8ed07f"
   integrity sha512-yXUIYOOQnEHKHOftp5shMWpB9ImfgfDJpapa38j/qMtTj5QHWucvxP4lUtuRmHT9vAzvtpHkWKXW9xBwimXeNg==
